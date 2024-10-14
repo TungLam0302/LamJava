@@ -1,0 +1,3 @@
+lamaudi;9000
+lamaudi1;9100
+lamaudi2;9200
