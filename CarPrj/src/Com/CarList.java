@@ -1,5 +1,5 @@
 package Com;
 
-public class CarList {
+public class CarList extends Car{
     
 }

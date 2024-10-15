@@ -1,5 +1,5 @@
 package Com;
 
-public class BrandList {
+public class BrandList extends Brand {
     
 }
