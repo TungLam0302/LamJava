@@ -1,5 +1,5 @@
 package Com;
-
-public class CarList extends Car{
+import java.util.ArrayList;
+public class CarList{
     
 }

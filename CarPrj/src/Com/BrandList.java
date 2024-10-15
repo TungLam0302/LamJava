@@ -1,5 +1,5 @@
 package Com;
-
-public class BrandList extends Brand {
+import java.util.ArrayList;
+public class BrandList{
     
 }
