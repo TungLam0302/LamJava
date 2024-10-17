@@ -7,6 +7,8 @@ public class Car{
     String color;
     String frameID;
     String engineID;
+    public String patternF = "F\\d{4}";
+    public String patternE = "F\\d{4}";
 
     public Car() {
     }
@@ -15,8 +17,8 @@ public class Car{
         this.carID = carID;
         this.brand = brand;
         this.color = color;
-        this.frameID = frameID;
-        this.engineID = engineID;
+        this.frameID = patternF;
+        this.engineID = patternE;
     }
 
     public String getCarID() {
