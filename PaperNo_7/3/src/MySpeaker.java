@@ -36,11 +36,15 @@ public class MySpeaker implements ISpeaker {
                 min = temp.getPower();
             }
         }
-        for (Speaker temp : t) {
-            if (temp.getPower() == min) {
-                t.remove(temp);
-                break;
+        int count=0;
+        for (int i = 0; i < t.size(); i++) {
+            if(t.get(i).getPower() == min){
+                count++;
             }
+            if(count == 2){
+                t.remove(i);
+            }
+            
         }
 //        int index = -1;
 //        int min = (int) Math.pow(2, 32);
